@@ -1,0 +1,1 @@
+QT_QPA_PLATFORM=offscreen CUDA_VISIBLE_DEVICES=3 yolo detect train data=cfg/datasets/coco_distorted_person.yaml model=yolov8n.pt epochs=12 imgsz=320 batch=64
